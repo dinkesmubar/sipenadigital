@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Perintah utama untuk Redirect Otomatis ke Google Apps Script -->
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbz75vzIMOND7X-Zt9cVu1VS9uuVPYnxhQuHmGbbIIv_-CNVMXfL8-hyc-oLnBDVF6iGWA/exec">
+    
+    <title>Membuka Si-Pena Digital...</title>
+    
+    <style>
+        body { 
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            margin-top: 15vh; 
+            background-color: #FEFCE8; /* Warna latar yang senada dengan aplikasi */
+            color: #0F172A; 
+        }
+        .logo-container {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 25px auto;
+        }
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .loader {
+            border: 4px solid #E2E8F0;
+            border-top: 4px solid #FACC15; /* Warna aksen kuning Si-Pena */
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px auto;
+        }
+        @keyframes spin { 
+            0% { transform: rotate(0deg); } 
+            100% { transform: rotate(360deg); } 
+        }
+        h2 {
+            font-size: 22px;
+            color: #B45309;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 13px;
+            color: #64748B;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menampilkan Logo Resmi Dinkes -->
+    <div class="logo-container">
+        <img src="https://drive.google.com/uc?id=1ZcJSTw8VOwAomMTzkNkklyzWqWE7D5hd" alt="Logo Dinkes">
+    </div>
+
+    <div class="loader"></div>
+    <h2>Si-Pena Digital</h2>
+    <p>Sedang mengarahkan ke sistem penomoran...</p>
+    
+    <script>
+        // Skrip cadangan: Jika browser pengunjung memblokir tag meta-refresh di atas,
+        // skrip ini akan memaksa pengalihan setelah 1,5 detik.
+        setTimeout(function() {
+            window.location.href = "https://script.google.com/macros/s/AKfycbz75vzIMOND7X-Zt9cVu1VS9uuVPYnxhQuHmGbbIIv_-CNVMXfL8-hyc-oLnBDVF6iGWA/exec";
+        }, 1500);
+    </script>
+
+</body>
+</html>
